@@ -1,0 +1,4 @@
+C:/Users/LOQ/OneDrive/Desktop/fft_image_compressor/build/CMakeFiles/core.dir
+C:/Users/LOQ/OneDrive/Desktop/fft_image_compressor/build/CMakeFiles/fft_ic.dir
+C:/Users/LOQ/OneDrive/Desktop/fft_image_compressor/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/LOQ/OneDrive/Desktop/fft_image_compressor/build/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\LOQ\OneDrive\Desktop\fft_image_compressor\src\fftw_plan_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LOQ\OneDrive\Desktop\fft_image_compressor\src\compress.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LOQ\OneDrive\Desktop\fft_image_compressor\src\decompress.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\LOQ\OneDrive\Desktop\fft_image_compressor\src\image.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LOQ\OneDrive\Desktop\fft_image_compressor\src\fft.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LOQ\OneDrive\Desktop\fft_image_compressor\src\fftw_plan_manager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LOQ\OneDrive\Desktop\fft_image_compressor\src\mask.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LOQ\OneDrive\Desktop\fft_image_compressor\src\quant.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LOQ\OneDrive\Desktop\fft_image_compressor\src\rle.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LOQ\OneDrive\Desktop\fft_image_compressor\src\huffman.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LOQ\OneDrive\Desktop\fft_image_compressor\src\compress.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LOQ\OneDrive\Desktop\fft_image_compressor\src\decompress.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\LOQ\OneDrive\Desktop\fft_image_compressor\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{9B2F8C15-2702-3976-96C4-CC8E5B1B15C9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3A755A6F-B37B-3302-B619-2FF8DBDA1DEB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
