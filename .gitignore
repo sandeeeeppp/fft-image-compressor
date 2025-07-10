@@ -1,22 +1,75 @@
-# Visual Studio
+# --------------------
+# Keep only source & CMake
+# --------------------
+!/src/
+!/CMakeLists.txt
+!/**.cmake
+!/README.md
+
+# --------------------
+# Ignore everything else
+# --------------------
+*
+
+# --------------------
+# Exceptions: un-ignore these folders/files
+# --------------------
+# Allow CMake to see its files
+!/CMakeLists.txt
+!/*.cmake
+
+# Allow source
+!/src/**
+!/src/**/*
+# (If you have headers or additional folders, adjust “/src/**” accordingly)
+
+# Allow documentation
+!/README.md
+
+# --------------------
+# IDE & OS
+# --------------------
 .vs/
-*.VC.db
 *.suo
 *.user
+*.VC.db
+*.DS_Store
+Thumbs.db
 
-# CMake build
+# --------------------
+# Build artifacts
+# --------------------
 /build/
 /CMakeFiles/
 /CMakeCache.txt
-/*.vcxproj*
-/Makefile
+Makefile
+*.vcxproj*
+*.vcxproj.filters
+*.vcxproj.user
+*.pdb
 
-# vcpkg artifacts
+# --------------------
+# vcpkg
+# --------------------
 /vcpkg/installed/
 /vcpkg/packages/
 /vcpkg/buildtrees/
+/vcpkg/downloads/
 
-# Binaries
+# --------------------
+# Binaries & libraries
+# --------------------
 *.exe
 *.dll
 *.lib
+*.a
+*.so
+*.dylib
+
+# --------------------
+# Other
+# --------------------
+*.log
+*.obj
+*.o
+*.out
