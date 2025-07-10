@@ -1,0 +1,22 @@
+# Visual Studio
+.vs/
+*.VC.db
+*.suo
+*.user
+
+# CMake build
+/build/
+/CMakeFiles/
+/CMakeCache.txt
+/*.vcxproj*
+/Makefile
+
+# vcpkg artifacts
+/vcpkg/installed/
+/vcpkg/packages/
+/vcpkg/buildtrees/
+
+# Binaries
+*.exe
+*.dll
+*.lib
