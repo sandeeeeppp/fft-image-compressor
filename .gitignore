@@ -1,75 +1,39 @@
-# --------------------
-# Keep only source & CMake
-# --------------------
-!/src/
+# ── keep only source, CMake, docs ─────────────────────────────
+!/src/**
+!/include/**
 !/CMakeLists.txt
-!/**.cmake
+!/**/*.cmake
 !/README.md
+!/LICENSE
 
-# --------------------
-# Ignore everything else
-# --------------------
+# ── ignore everything else by default ─────────────────────────
 *
 
-# --------------------
-# Exceptions: un-ignore these folders/files
-# --------------------
-# Allow CMake to see its files
-!/CMakeLists.txt
-!/*.cmake
-
-# Allow source
-!/src/**
-!/src/**/*
-# (If you have headers or additional folders, adjust “/src/**” accordingly)
-
-# Allow documentation
-!/README.md
-
-# --------------------
-# IDE & OS
-# --------------------
+# ── IDE / OS clutter ──────────────────────────────────────────
 .vs/
+*.VC.db
 *.suo
 *.user
-*.VC.db
-*.DS_Store
+*.ipch
+*.db
+.DS_Store
 Thumbs.db
 
-# --------------------
-# Build artifacts
-# --------------------
+# ── build output ──────────────────────────────────────────────
 /build/
 /CMakeFiles/
 /CMakeCache.txt
-Makefile
 *.vcxproj*
-*.vcxproj.filters
-*.vcxproj.user
+Makefile
+*.obj
+*.o
 *.pdb
+*.exe
+*.dll
+*.lib
 
-# --------------------
-# vcpkg
-# --------------------
+# ── vcpkg artefacts ───────────────────────────────────────────
 /vcpkg/installed/
 /vcpkg/packages/
 /vcpkg/buildtrees/
 /vcpkg/downloads/
-
-# --------------------
-# Binaries & libraries
-# --------------------
-*.exe
-*.dll
-*.lib
-*.a
-*.so
-*.dylib
-
-# --------------------
-# Other
-# --------------------
-*.log
-*.obj
-*.o
-*.out
